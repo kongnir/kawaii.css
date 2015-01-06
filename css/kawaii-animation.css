@@ -1,0 +1,83 @@
+/* BLINK ANIMATION */
+.eye.left, .eye.right {
+    /* Webkit */
+    -webkit-animation-name:blink;
+    -webkit-animation-duration:6s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-play-state: running;
+    /* Mozilla */
+    -moz-animation-name:blink;
+    -moz-animation-duration:6s;
+    -moz-animation-timing-function:linear;
+    -moz-animation-delay:2s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-play-state: running;
+    /* Opera */
+    -o-animation-name:blink;
+    -o-animation-duration:6s;
+    -o-animation-timing-function:linear;
+    -o-animation-delay:2s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-play-state: running;
+    /* MS */
+    -ms-animation-name:blink;
+    -ms-animation-duration:6s;
+    -ms-animation-timing-function:linear;
+    -ms-animation-delay:2s;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-play-state: running;
+    /* CSS3 */
+    animation-name:blink;
+    animation-duration:6s;
+    animation-timing-function:linear;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+
+/* Webkit */
+@-webkit-keyframes blink {
+    0% {-webkit-transform: scale(1,1);}
+    2% {-webkit-transform: scale(1,0);}
+    4% {-webkit-transform: scale(1,0);}
+    5% {-webkit-transform: scale(1,1);}
+    100% {-webkit-transform: scale(1,1);}
+}
+
+/* Mozilla */
+@-moz-keyframes blink {
+    0% {-moz-transform: scale(1,1);}
+    2% {-moz-transform: scale(1,0);}
+    4% {-moz-transform: scale(1,0);}
+    5% {-moz-transform: scale(1,1);}
+    100% {-moz-transform: scale(1,1);}
+}
+
+/* Opera */
+@-o-keyframes blink {
+    0% {-o-transform: scale(1,1);}
+    2% {-o-transform: scale(1,0);}
+    4% {-o-transform: scale(1,0);}
+    5% {-o-transform: scale(1,1);}
+    100% {-o-transform: scale(1,1);}
+}
+
+/* Microsoft */
+@-ms-keyframes blink {
+    0% {-ms-transform: scale(1,1);}
+    2% {-ms-transform: scale(1,0);}
+    4% {-ms-transform: scale(1,0);}
+    5% {-ms-transform: scale(1,1);}
+    100% {-ms-transform: scale(1,1);}
+}
+
+/* CSS3 */
+@keyframes blink {
+    0% {transform: scale(1,1);}
+    2% {transform: scale(1,0);}
+    4% {transform: scale(1,0);}
+    5% {transform: scale(1,1);}
+    100% {transform: scale(1,1);}
+}
