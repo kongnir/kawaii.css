@@ -7,7 +7,13 @@
 
 The focus of this release was to improve maintainability of the project and adding some new elements.
 
-- Use Grunt to build sass (issue #5)
+### Enhancement
+
+1. Use Grunt to build sass (issue #5)
+
+### Bug fixes
+
+1. Skull and face position different (issue #3)
 
 ## v0.0.2
 

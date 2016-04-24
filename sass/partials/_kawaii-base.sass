@@ -1,7 +1,7 @@
 //kawaii base
 //=============================
 // this is the default width/height of heads. The rule is that kawaii shold be about 1.5-2 heads tall
-$diameter: 300px !default
+$diameter: 30em !default
 
 // width variable for +bx(width, height, radius)
 $box-width: 100% !default
@@ -12,11 +12,14 @@ $box-height: 100% !default
 // radius variable for +bx(width, height, radius)
 $border_radness: 50% !default
 
-// this element is +20px bigger than the head so it looks like it wraps around head
-$hat_diameter: $diameter + 20px !default
+// Leave some allowance so it looks like it wraps around head
+$hat_diameter_allowance: 1em
+
+// this element is bigger than the head so it looks like it wraps around head
+$hat_diameter: $diameter + $hat_diameter_allowance !default
 
 // this has to be creates the subtle curve of the hat brim
-$animal-brim: 500px !default
+$animal-brim: 50em !default
 
 // default hair color
 $hair-color: #ff0000 !default
