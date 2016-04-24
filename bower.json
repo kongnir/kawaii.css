@@ -1,0 +1,41 @@
+{
+  "name": "kawaii.css",
+  "version": "0.0.3",
+  "description": "Kawaii-CSS is a css framework for building Kawaii cartoons.",
+  "main": [
+    "dist/css/kawaii.css",
+    "dist/css/kawaii.min.css",
+    "dist/css/kawaii-animation.css",
+    "dist/css/kawaii-animation.min.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "css",
+    "sass",
+    "responsive",
+    "framework",
+    "web",
+    "kawaii"
+  ],
+  "authors": [
+    "Anthony Calzadilla",
+    "Andrews Ang"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/kongnir/kawaii.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kongnir/kawaii.css.git"
+  },
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs"
+  ]
+}
