@@ -6,3 +6,9 @@
   Site: clzd.me
   Twitter: @clzd
   Location: Miami, Florida
+
+/* CONTRIBUTOR */
+  Andrews Ang
+  Site: blog.kongnir.com
+  Twitter: @kongnir
+  Location: Singapore

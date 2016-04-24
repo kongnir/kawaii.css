@@ -39,6 +39,28 @@ To get started, checkout [http://clzd.me/kawaii-css](http://clzd.me/kawaii-css)
 
 ## Quick start
 
+### Developers
+You need to have the following installed on your environment:
+- Ruby
+- Sass
+- Compass
+- Node.js
+
+If you're using vagrant with Ubuntu installed, you need to run this command:
+```
+sudo apt-get install ruby-dev
+```
+Otherwise, you may get an error message "Failed to build gem native extension".
+
+For easier setup, you may want to consider installing [Laravel Homestead](https://laravel.com/docs/master/homestead).
+It has all the requirements except Compass.
+
+Simply run these 2 commands to install ruby-dev and compass.
+```
+sudo apt-get install ruby-dev
+sudo gem install compass
+```
+
 ## Community
 
 ## Contributing
