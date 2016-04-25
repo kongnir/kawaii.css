@@ -19,7 +19,7 @@
 		width: $crown-size - $hat_diameter_allowance
 		height: $crown-size - $hat_diameter_allowance
 		border-radius: $crown-size/2
-		+box-shadow(inset 0px 15em 0px -4em $crown-bg-color)
+		+box-shadow(inset 0px 15em 1em -4em $crown-bg-color)
 		z-index: 12
 
 .crown-ruby.crown
@@ -73,7 +73,7 @@
 	&:first-child
 		left: 0
 		top: 22%
-		+transform(translate(50%,0%) rotate(-10deg))
+		+transform(translate(50%,0%) rotate(-12deg))
 	&:nth-child(2)
 		left: 25%
 		top: 10%
@@ -88,4 +88,4 @@
 	&:last-child
 		left: 100%
 		top: 22%
-		+transform(translate(-50%,0%) rotate(10deg))
+		+transform(translate(-50%,0%) rotate(12deg))
