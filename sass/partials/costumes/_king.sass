@@ -1,14 +1,8 @@
-//CROWN STYLES
-//=========================================
-.hat-bg-wrap
-	@extend .animal-bg-wrap
-
-.hat-bg
-	@extend .animal-bg
-
 .hat-bg.crown
+	&:before
+		+box-shadow(inset 0px 0px 0px 0.6em $crown-border-color)
 	&:after
-		+box-shadow(inset 0px 17em 0px $crown-bg-color, inset 0px 18em 0px $hat-border-color)
+		+box-shadow(inset 0px 17em 0px $crown-bg-color, inset 0px 18em 0px $crown-border-color)
 
 .hat.crown
 	&:before
@@ -50,7 +44,7 @@
 	margin-left: -3em
 	border-style: solid
 	border-width: 0 3em 15em 3em
-	border-color: transparent transparent $hat-border-color transparent
+	border-color: transparent transparent $crown-border-color transparent
 	&:after
 		content: ""
 		position: absolute
@@ -69,7 +63,7 @@
 		height: 3em
 		border-radius: 3em
 		background-color: $crown-bg-color
-		border: 0.4em solid $hat-border-color
+		border: 0.4em solid $crown-border-color
 	&:first-child
 		left: 0
 		top: 22%
@@ -89,3 +83,9 @@
 		left: 100%
 		top: 22%
 		+transform(translate(-50%,0%) rotate(12deg))
+
+.king.costume
+	.cape
+		border-bottom-color: $king-cape-border-color
+		&:before
+			border-bottom-color: $king-cape-bg-color

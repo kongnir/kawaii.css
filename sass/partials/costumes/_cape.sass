@@ -1,0 +1,18 @@
+.cape
+	+bx(transparent, 22em, 18.5em, 2.5em)
+	+ps(absolute, 50%, -11em)
+	margin-left: -11.1em
+	z-index: -1
+	border-bottom:	$diameter solid black
+	border-left:	$diameter / 3 solid transparent
+	border-right:	$diameter / 3 solid transparent
+	&:before
+		content: ''
+		display: block
+		+bx(transparent, 20em, 18.5em, 1.5em)
+		+ps(absolute, 50%, -0.7em)
+		margin-left: -10em
+		border-bottom:	$diameter solid $animal-bg-color
+		border-left:	$diameter / 3 solid transparent
+		border-right:	$diameter / 3 solid transparent
+	
