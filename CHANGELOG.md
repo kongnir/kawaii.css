@@ -7,6 +7,10 @@
 
 The focus of this release was to improve maintainability of the project and adding some new elements.
 
+### New features
+
+1. New King costume with crown and cape.
+
 ### Enhancement
 
 1. Use Grunt to build sass (issue #5)
@@ -14,6 +18,7 @@ The focus of this release was to improve maintainability of the project and addi
 ### Bug fixes
 
 1. Skull and face position different (issue #3)
+2. Fixed animal head gear out of position issue.
 
 ## v0.0.2
 
